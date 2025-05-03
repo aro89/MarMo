@@ -4,16 +4,69 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>MarMo - Expense Tracker</title>
+
   <style>
     body {
-      font-family: Arial, sans-serif;
-      margin: 40px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
       background-color: #f5f5f5;
       color: #333;
     }
-    h1 {
-      color: #2a9d8f;
+
+    header {
+      background-color: #2a9d8f;
+      color: white;
+      padding: 20px;
+      text-align: center;
     }
+
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    img.logo {
+      height: 120px;
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      margin-top: 0;
+      font-size: 2.5em;
+    }
+
+    nav {
+      margin: 20px 0;
+      text-align: center;
+    }
+
+    /* Styling the links to look like buttons */
+    nav a {
+      color: white;
+      background-color: #2a9d8f;
+      padding: 12px 20px;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: normal; /* Removed bold */
+      display: inline-flex; /* Change to inline-flex */
+      align-items: center; /* Align emoji and text */
+      justify-content: center;
+      width: auto; /* Ensure button doesn't stretch */
+      margin-top: 10px;
+    }
+
+    /* Add some space between the emoji and text */
+    nav a span {
+      margin-left: 8px;
+    }
+
+    nav a:hover {
+      background-color: #1f7e73; /* Slightly darker shade when hovered */
+      text-decoration: none;
+    }
+
     .button {
       background-color: #2a9d8f;
       color: white;
@@ -23,37 +76,83 @@
       display: inline-block;
       margin-top: 20px;
     }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .gallery img {
+      width: 200px;
+      height: auto;
+      border-radius: 6px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #666;
+    }
   </style>
 </head>
 <body>
-  <img src="logo.png" alt="MarMo Logo" style="height: 80px; margin-bottom: 20px;">
-  <h1>📱 MarMo</h1>
-  <p><strong>MarMo</strong> is a simple and intuitive expense tracker app built with Flutter and Firebase.</p>
 
-  <h2>🔗 Links</h2>
-  <ul>
-    <li><a href="https://github.com/aro89/MarMo" target="_blank">GitHub Repository</a></li>
-    <li><a href="#features">Features</a></li>
-    <li><a href="#screenshots">Screenshots</a></li>
-  </ul>
+  <header>
+    <img src="logo.png" alt="MarMo Logo" class="logo">
+    <h1>📱 MarMo</h1>
+    <p>Track your expenses with ease — built using Flutter & Firebase</p>
+  </header>
 
-  <h2 id="features">✨ Features</h2>
-  <ul>
-    <li>Personal user accounts with Firebase Auth</li>
-    <li>Manage wallets and transactions</li>
-    <li>Secure, real-time sync with Firestore</li>
-  </ul>
+  <main>
+    <nav>
+      <!-- Privacy policy link styled as a button with an emoji -->
+      <a href="privacy_policy.html">
+        <!-- Shield emoji -->
+        🛡️<span>See Our Privacy Policy</span>
+      </a>
+    </nav>
 
-  <h2 id="screenshots">📸 Screenshots</h2>
-  <div>
-    <img src="Screenshots/Register.png" alt="Register" width="300">
-    <img src="Screenshots/Home.png" alt="Home" width="300">
-    <img src="Screenshots/Statistics.png" alt="Statistics" width="300">
-    <img src="Screenshots/Wallets.png" alt="Wallets" width="300">
-    <img src="Screenshots/Add Transaction.png" alt="Add Transactions" width="300">
-    <img src="Screenshots/Search.png" alt="Search" width="300">
-  </div>
+    <section id="features">
+      <h2>✨ Features</h2>
+      <ul>
+        <li>Personal user accounts with Firebase Auth</li>
+        <li>Manage multiple wallets and transactions</li>
+        <li>Real-time sync and secure storage with Firestore</li>
+        <li>Track income vs. expenses with visual statistics</li>
+        <li>Search and filter past transactions</li>
+      </ul>
+    </section>
 
-  <a class="button" href="https://github.com/yourusername/marmo">View on GitHub</a>
+    <section id="screenshots">
+      <h2>📸 Screenshots</h2>
+      <div class="gallery">
+        <img src="Screenshots/Register.png" alt="Register">
+        <img src="Screenshots/Home.png" alt="Home">
+        <img src="Screenshots/Statistics.png" alt="Statistics">
+        <img src="Screenshots/Wallets.png" alt="Wallets">
+        <img src="Screenshots/Add Transaction.png" alt="Add Transaction">
+        <img src="Screenshots/Search.png" alt="Search">
+      </div>
+    </section>
+
+    <div style="text-align: center;">
+      <a class="button" href="https://github.com/aro89/MarMo" target="_blank">📂 View Project on GitHub</a>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 MarMo App. Built with ❤️ using Flutter and Firebase.
+  </footer>
+
 </body>
 </html>
