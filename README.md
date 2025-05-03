@@ -1,16 +1,41 @@
-# madmet
+# 💸 MarMo - Expense Tracker App
 
-A simple expense tracker
+MarMo is a simple and intuitive expense tracker app built using **Flutter** and **Firebase**. It helps users manage their finances by tracking income, expenses, and balances through an easy-to-use mobile interface.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📱 Features
 
-A few resources to get you started if this is your first Flutter project:
+- 🔐 User Authentication (via Firebase Auth)
+- 👤 Personal User Accounts
+- 💼 Wallet Management (multiple wallets per user)
+- 💳 Transaction Tracking (expenses & income)
+- 🔎 View Transaction History
+- 🔒 Secure access with Firestore Security Rules
+- ☁️ Real-time sync using Firebase Cloud Firestore
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 Tech Stack
+
+- **Flutter** (Dart)
+- **Firebase**:
+  - Authentication
+  - Cloud Firestore
+  - Firebase Security Rules
+
+---
+
+👤 Author
+Your Name
+
+GitHub Profile
+
+Contact: your.email@example.com
+
+---
+
+📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+
