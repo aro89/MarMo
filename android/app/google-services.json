@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "820853026390",
+    "project_id": "madmet-4d5b9",
+    "storage_bucket": "madmet-4d5b9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:820853026390:android:da8ce27806daf96ae755f7",
+        "android_client_info": {
+          "package_name": "com.aro.met.madmet"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDu9Ukwf0EE0_zWNxHZfrAagMM7Qfwmj-8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
