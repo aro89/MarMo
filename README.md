@@ -28,6 +28,6 @@ MarMo is a simple and intuitive expense tracker app built using **Flutter** and 
 ---
 
 📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License.
 
 
