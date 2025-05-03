@@ -24,14 +24,6 @@ MarMo is a simple and intuitive expense tracker app built using **Flutter** and 
   - Cloud Firestore
   - Firebase Security Rules
 
----
-
-👤 Author
-Your Name
-
-GitHub Profile
-
-Contact: your.email@example.com
 
 ---
 
