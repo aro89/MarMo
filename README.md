@@ -28,6 +28,7 @@ MarMo is a simple and intuitive expense tracker app built using **Flutter** and 
 ---
 
 🧭 How to Get Started
+
 To start using the app:
 
 Visit the [official website](https://aro89.github.io/MarMo/) to learn more.
